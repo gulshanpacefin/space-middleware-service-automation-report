@@ -1,0 +1,2135 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Apr 1, 2024 11:33:36 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login APIs</p>
+            <p class="text-sm">
+              <span>11:33:36 am</span> / <span>00:00:01:488</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login APIs</h5>
+<span class='badge badge-success'>04.01.2024 11:33:36 am</span>
+<span class='badge badge-danger'>04.01.2024 11:33:38 am</span>
+<span class='badge badge-default'>00:00:01:488</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Test suite for login related APIs</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:01:027</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="2"><span>Valid Username and Password</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>Test to verify login with valid credentials</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:37 am</td>
+        <td>
+          Request Method Type: POST
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:37 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/authapis/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:37 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:37 am</td>
+        <td>
+          Request Body: {"userName": "HI0009", "password": "Pocketful@123"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:37 am</td>
+        <td>
+          Expected Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:37 am</td>
+        <td>
+          Actual Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:37 am</td>
+        <td>
+          Response Body: {"status":true,"message":"SUCCESS","errorcode":"","data":{"alert":"2fa pin","authToken":"","loginId":"HI0009","resetPassword":false,"resetTwoFa":false,"twofa":{"questions":[{"question":"Please enter your pin","questionId":22}],"twoFaToken":"2QscRNiRNSAG9nnpPkrbFIxttA0NTxetQHE0AHraegl9vLF6W3DoDohiUzVcohikoFd0yL9AJMCh9vOwepJCp9fxw77NOnXUKguVRMe47oyBuetFVjUyWMBNzS1OK9InUzDN8yOyXIARsXUMZFLlUloD9lokgM86sTNRzTna5m","type":"PIN"},"twoFaEnabled":true}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:33:37 am</td>
+        <td>
+          Login API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:121</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="3"><span>Invalid Username and Password</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>Test to verify login with invalid credentials</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:37 am</td>
+        <td>
+          Request Method Type: POST
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:37 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/authapis/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:37 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:37 am</td>
+        <td>
+          Request Body: {"userName": "wrong_client_id", "password": "Pocketful@123"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:37 am</td>
+        <td>
+          Expected Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:37 am</td>
+        <td>
+          Actual Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:37 am</td>
+        <td>
+          Response Body: {"status":false,"message":"Invalid login attempt. Attempts left: 5","errorcode":"40003","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:33:37 am</td>
+        <td>
+          Login API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:209</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="4"><span>Valid Username and Wrong Password</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>Test to verify login with valid username and wrong password</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Request Method Type: POST
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/authapis/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Request Body: {"userName": "HI0009", "password": "wrong_password"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Expected Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Actual Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Response Body: {"status":false,"message":"Invalid login attempt. Attempts left: 5","errorcode":"40003","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Login API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:117</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="5"><span>Empty Username and Password</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>Test to verify login with empty credentials</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Request Method Type: POST
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/authapis/login
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Request Body: {"userName": "", "password": ""}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Expected Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Actual Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Response Body: {"status":false,"message":"`login_id` can't be blank","errorcode":"44000","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Login API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login by Email APIs</p>
+            <p class="text-sm">
+              <span>11:33:38 am</span> / <span>00:00:00:345</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login by Email APIs</h5>
+<span class='badge badge-success'>04.01.2024 11:33:38 am</span>
+<span class='badge badge-danger'>04.01.2024 11:33:38 am</span>
+<span class='badge badge-default'>00:00:00:345</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Test suite for login by email related APIs</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:154</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="7"><span>Login by Email</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>Test to verify login by email API</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/authapis/loginByEmail
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, P-Platform : ANDROID]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Request Body: {"password":"Pocketful@123","emailId":"himanshumishra307@gmail.com"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Expected Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Actual Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Response Body: {"status":true,"message":"SUCCESS","errorcode":"","data":{"alert":"2fa pin","authToken":"","loginId":"HI0009","resetPassword":false,"resetTwoFa":false,"twofa":{"questions":[{"question":"Please enter your pin","questionId":22}],"twoFaToken":"2QscRNiQM2dvbgOcqn5MdC4CPdyZfMn1f457rDwNgiJqnJuFhOlxBgyVQd7sO5dz3r4BKV21APCBRBSm978J7zbjNXZLSrLpa30jEnQkD6oE2yscF8MPWZZ9B0aUEUsd9J8cQZPlNJv5hzbBRKR63GWm6zafbyPuRDfZoljTIG","type":"PIN"},"twoFaEnabled":true}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Login by Email API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:190</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="8"><span>Login by Email with wrong credentials</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>Test to verify login by email API with wrong credentials</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/authapis/loginByEmail
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, P-Platform : ANDROID]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Request Body: {"password":"wrong_password","emailId":"test@test.com"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Expected Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Actual Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Response Body: {"status":false,"message":"INVALID EMAIL ID","errorcode":"P11031","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Login by Email API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Validate TwoFa APIs</p>
+            <p class="text-sm">
+              <span>11:33:38 am</span> / <span>00:00:00:281</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Validate TwoFa APIs</h5>
+<span class='badge badge-success'>04.01.2024 11:33:38 am</span>
+<span class='badge badge-danger'>04.01.2024 11:33:38 am</span>
+<span class='badge badge-default'>00:00:00:281</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Test suite for validate twoFa related APIs</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:129</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="10"><span>Validate TwoFa</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>Test to verify validate twoFa API</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/authapis/validateTwoFa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, P-Platform : ANDROID]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Request Body: {"loginId":"HI0009","twoFaToken":"2QscRNiRNSAG9nnpPkrbFIxttA0NTxetQHE0AHraegl9vLF6W3DoDohiUzVcohikoFd0yL9AJMCh9vOwepJCp9fxw77NOnXUKguVRMe47oyBuetFVjUyWMBNzS1OK9InUzDN8yOyXIARsXUMZFLlUloD9lokgM86sTNRzTna5m","type":"PIN","twoFa":[{"questionId":"22","answer":"123456"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Expected Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Actual Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Response Body: {"status":true,"message":"SUCCESS","errorcode":"","data":{"authToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJibGFja2xpc3Rfa2V5IjoiSEkwMDA5OmdieGR2OFVEV20vNG4zcjJoMlNHQ2ciLCJjbGllbnRfaWQiOiJISTAwMDkiLCJjbGllbnRfdG9rZW4iOiJRVEV5T0VkRFRRLjZ0UWhjUlJheEdTMXJ6VFVMWXoyM0ZEX2dqQkpTNTl0ZzlkbGxhQkhJY0hRa1U2UUg5eG81VEZCdHE4LkRVWW5jWmF2Z2xMNXNUU2Iuam90cGVPTk83a2xiaHM4c0lOclJWVjdndHFpc21KNkFtcTVwdmRZaW00WXlJT2dPNDY4ZFJhc29mS25nZ3RkZElzUHU5VVdQM01yM0I2eTJrQ3RkN2NQMDFMRkpsaG9xajlpU21RUTQ3RGExUmU5UkJ5dnVHbGRuVE1vVTc3OE5SOWh5ekxoZm9wWGhyYWtZbWI3dy5helJjUUlrSGhrN3NHal9PVTNFMkl3IiwiZGV2aWNlIjoid2ViIiwiZGV2aWNlX2lkIjpudWxsLCJpcCI6bnVsbCwiZXhwIjoxNzEyMDM3ODE4Mjg3fQ.NAJa0k16dQsb8EEwmRHJvA1a9P6XNcsN_wY30diPuBI","resetPassword":false,"resetTwoFa":false}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Validate TwoFa API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:152</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="11"><span>Validate TwoFa with wrong credentials</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>Test to verify validate twoFa API with wrong credentials</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/authapis/validateTwoFa
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, P-Platform : ANDROID]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Request Body: {"loginId":"wrong_client_id","twoFaToken":"2QscRNiRNSAG9nnpPkrbFIxttA0NTxetQHE0AHraegl9vLF6W3DoDohiUzVcohikoFd0yL9AJMCh9vOwepJCp9fxw77NOnXUKguVRMe47oyBuetFVjUyWMBNzS1OK9InUzDN8yOyXIARsXUMZFLlUloD9lokgM86sTNRzTna5m","type":"PIN","twoFa":[{"questionId":"22","answer":"123456"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Expected Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Actual Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Response Body: {"status":false,"message":"Invalid PAN","errorcode":"40008","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Validate TwoFa API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Validate Token APIs</p>
+            <p class="text-sm">
+              <span>11:33:38 am</span> / <span>00:00:00:575</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Validate Token APIs</h5>
+<span class='badge badge-success'>04.01.2024 11:33:38 am</span>
+<span class='badge badge-danger'>04.01.2024 11:33:39 am</span>
+<span class='badge badge-default'>00:00:00:575</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Test suite for validate token related APIs</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:172</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="13"><span>Validate Token</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>Test to verify validate token API</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/authapis/validateToken
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, P-Platform : ANDROID]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Request Body: {"userId":"HI0009","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJibGFja2xpc3Rfa2V5IjoiSEkwMDA5OmdieGR2OFVEV20vNG4zcjJoMlNHQ2ciLCJjbGllbnRfaWQiOiJISTAwMDkiLCJjbGllbnRfdG9rZW4iOiJRVEV5T0VkRFRRLjZ0UWhjUlJheEdTMXJ6VFVMWXoyM0ZEX2dqQkpTNTl0ZzlkbGxhQkhJY0hRa1U2UUg5eG81VEZCdHE4LkRVWW5jWmF2Z2xMNXNUU2Iuam90cGVPTk83a2xiaHM4c0lOclJWVjdndHFpc21KNkFtcTVwdmRZaW00WXlJT2dPNDY4ZFJhc29mS25nZ3RkZElzUHU5VVdQM01yM0I2eTJrQ3RkN2NQMDFMRkpsaG9xajlpU21RUTQ3RGExUmU5UkJ5dnVHbGRuVE1vVTc3OE5SOWh5ekxoZm9wWGhyYWtZbWI3dy5helJjUUlrSGhrN3NHal9PVTNFMkl3IiwiZGV2aWNlIjoid2ViIiwiZGV2aWNlX2lkIjpudWxsLCJpcCI6bnVsbCwiZXhwIjoxNzEyMDM3ODE4Mjg3fQ.NAJa0k16dQsb8EEwmRHJvA1a9P6XNcsN_wY30diPuBI"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Expected Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Actual Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Response Body: {"status":true,"message":"SUCCESS","errorcode":"","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:33:38 am</td>
+        <td>
+          Validate Token API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:116</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="14"><span>Validate Token</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>Test to verify validate token API</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/authapis/validateToken
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, P-Platform : ANDROID]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Request Body: {"userId":"wrong_client_id","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJibGFja2xpc3Rfa2V5IjoiSEkwMDA5OmdieGR2OFVEV20vNG4zcjJoMlNHQ2ciLCJjbGllbnRfaWQiOiJISTAwMDkiLCJjbGllbnRfdG9rZW4iOiJRVEV5T0VkRFRRLjZ0UWhjUlJheEdTMXJ6VFVMWXoyM0ZEX2dqQkpTNTl0ZzlkbGxhQkhJY0hRa1U2UUg5eG81VEZCdHE4LkRVWW5jWmF2Z2xMNXNUU2Iuam90cGVPTk83a2xiaHM4c0lOclJWVjdndHFpc21KNkFtcTVwdmRZaW00WXlJT2dPNDY4ZFJhc29mS25nZ3RkZElzUHU5VVdQM01yM0I2eTJrQ3RkN2NQMDFMRkpsaG9xajlpU21RUTQ3RGExUmU5UkJ5dnVHbGRuVE1vVTc3OE5SOWh5ekxoZm9wWGhyYWtZbWI3dy5helJjUUlrSGhrN3NHal9PVTNFMkl3IiwiZGV2aWNlIjoid2ViIiwiZGV2aWNlX2lkIjpudWxsLCJpcCI6bnVsbCwiZXhwIjoxNzEyMDM3ODE4Mjg3fQ.NAJa0k16dQsb8EEwmRHJvA1a9P6XNcsN_wY30diPuBI"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Expected Status Code: 403
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Actual Status Code: 403
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Response Body: {"status":false,"message":"INVALID TOKEN","errorcode":"P11012","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Validate Token API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:134</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="15"><span>Validate Token with wrong AuthToken</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>Test to verify validate token API with wrong credentials</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/authapis/validateToken
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, P-Platform : ANDROID]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Request Body: {"userId":"HI0009","token":"wrong_auth_token"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Expected Status Code: 401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Actual Status Code: 401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Response Body: {"status":false,"message":"INVALID TOKEN","errorcode":"P11012","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Validate Token API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:153</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="16"><span>Validate Token with empty credentials</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>Test to verify validate token API with empty credentials</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/authapis/validateToken
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, P-Platform : ANDROID]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Request Body: {"userId":"","token":""}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Expected Status Code: 401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Actual Status Code: 401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Response Body: {"status":false,"message":"INVALID TOKEN","errorcode":"P11012","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Validate Token API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Forget Password APIs</p>
+            <p class="text-sm">
+              <span>11:33:39 am</span> / <span>00:00:00:465</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Forget Password APIs</h5>
+<span class='badge badge-success'>04.01.2024 11:33:39 am</span>
+<span class='badge badge-danger'>04.01.2024 11:33:39 am</span>
+<span class='badge badge-default'>00:00:00:465</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Test suite for forget password related APIs</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:346</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="18"><span>Forget Password</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>Test to verify forget password API</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/authapis/forgotPassword
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, P-Platform : ANDROID]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Request Body: {"loginId": "HI0009", "pan": "GBHPM1001H"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Expected Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Actual Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Response Body: {"status":true,"message":"SUCCESS","errorcode":"","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Forget Password API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:119</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="19"><span>Forget Password with wrong credentials</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>Test to verify forget password API with wrong credentials</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/authapis/forgotPassword
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, P-Platform : ANDROID]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Request Body: {"loginId": "wrong_client_id", "pan": "sdcbjhsd"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Expected Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Actual Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Response Body: {"status":false,"message":"Invalid login id","errorcode":"40006","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Forget Password API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="20"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Set Password APIs</p>
+            <p class="text-sm">
+              <span>11:33:39 am</span> / <span>00:00:00:418</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Set Password APIs</h5>
+<span class='badge badge-success'>04.01.2024 11:33:39 am</span>
+<span class='badge badge-danger'>04.01.2024 11:33:40 am</span>
+<span class='badge badge-default'>00:00:00:418</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Test suite for set password related APIs</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>30:00:245</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="21"><span>Set Password</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+            <p>Test to verify set password API</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/authapis/setPassword
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, P-Platform : ANDROID]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Request Body: {"emailToken":"string","newPassword":"string"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Expected Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Actual Status Code: 500
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Response Body: {"status":false,"message":"invalid link or Link expired. Please click on forgot password again","errorcode":"40000","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:33:39 am</td>
+        <td>
+          Assertion failed: Status code mismatch expected:<200> but was:<500>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/authapis/setPassword
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, P-Platform : ANDROID]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Request Body: {"emailToken":"emailToken","newPassword":"Pocketful@1234"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Expected Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Actual Status Code: 500
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Response Body: {"status":false,"message":"invalid link or Link expired. Please click on forgot password again","errorcode":"40000","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Assertion failed: Status code mismatch expected:<200> but was:<500>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>30:00:172</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="22"><span>Set Password with wrong credentials</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+            <p>Test to verify set password API with wrong credentials</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/authapis/setPassword
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, P-Platform : ANDROID]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Request Body: {"emailToken":"wrongEmailToken","newPassword":"Pocketful@1234"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Expected Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Actual Status Code: 500
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Response Body: {"status":false,"message":"invalid link or Link expired. Please click on forgot password again","errorcode":"40000","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Assertion failed: Status code mismatch expected:<400> but was:<500>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Forget Reset TwoFa APIs</p>
+            <p class="text-sm">
+              <span>11:33:40 am</span> / <span>00:00:00:479</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Forget Reset TwoFa APIs</h5>
+<span class='badge badge-success'>04.01.2024 11:33:40 am</span>
+<span class='badge badge-danger'>04.01.2024 11:33:40 am</span>
+<span class='badge badge-default'>00:00:00:479</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Test suite for forget reset twoFa related APIs</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:355</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="24"><span>Forget Reset TwoFa</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>Test to verify forget reset twoFa API</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/authapis/forgotPassword
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, P-Platform : ANDROID]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Request Body: {"loginId": "HI0009", "pan": "GBHPM1001H"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Expected Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Actual Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Response Body: {"status":true,"message":"SUCCESS","errorcode":"","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Forget Password API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:124</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="25"><span>Forget Reset TwoFa with wrong credentials</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>Test to verify forget reset twoFa API with wrong credentials</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/authapis/forgotPassword
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, P-Platform : ANDROID]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Request Body: {"loginId": "wrong_client_id", "pan": "GBHPM1001H"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Expected Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Actual Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Response Body: {"status":false,"message":"Invalid login id","errorcode":"40006","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Forget Password API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="26"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Set TwoFa Pin APIs</p>
+            <p class="text-sm">
+              <span>11:33:40 am</span> / <span>00:00:00:288</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Set TwoFa Pin APIs</h5>
+<span class='badge badge-success'>04.01.2024 11:33:40 am</span>
+<span class='badge badge-danger'>04.01.2024 11:33:40 am</span>
+<span class='badge badge-default'>00:00:00:288</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Test suite for set twoFa pin related APIs</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>30:00:127</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="27"><span>Set TwoFa Pin</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+            <p>Test to verify set twoFa pin API</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/authapis/setTwoFaPin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, P-Platform : ANDROID, Authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJibGFja2xpc3Rfa2V5IjoiSEkwMDA5OmdieGR2OFVEV20vNG4zcjJoMlNHQ2ciLCJjbGllbnRfaWQiOiJISTAwMDkiLCJjbGllbnRfdG9rZW4iOiJRVEV5T0VkRFRRLjZ0UWhjUlJheEdTMXJ6VFVMWXoyM0ZEX2dqQkpTNTl0ZzlkbGxhQkhJY0hRa1U2UUg5eG81VEZCdHE4LkRVWW5jWmF2Z2xMNXNUU2Iuam90cGVPTk83a2xiaHM4c0lOclJWVjdndHFpc21KNkFtcTVwdmRZaW00WXlJT2dPNDY4ZFJhc29mS25nZ3RkZElzUHU5VVdQM01yM0I2eTJrQ3RkN2NQMDFMRkpsaG9xajlpU21RUTQ3RGExUmU5UkJ5dnVHbGRuVE1vVTc3OE5SOWh5ekxoZm9wWGhyYWtZbWI3dy5helJjUUlrSGhrN3NHal9PVTNFMkl3IiwiZGV2aWNlIjoid2ViIiwiZGV2aWNlX2lkIjpudWxsLCJpcCI6bnVsbCwiZXhwIjoxNzEyMDM3ODE4Mjg3fQ.NAJa0k16dQsb8EEwmRHJvA1a9P6XNcsN_wY30diPuBI]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Request Body: {"loginId":"HI0009","pin":"","twoFaType":"string"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Expected Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Actual Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Response Body: {"status":false,"message":"`twofa_type` is invalid","errorcode":"44000","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Assertion failed: Status code mismatch expected:<200> but was:<400>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:161</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="28"><span>Set TwoFa Pin with wrong credentials</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>Test to verify set twoFa pin API with wrong credentials</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/authapis/setTwoFaPin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, P-Platform : ANDROID, Authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJibGFja2xpc3Rfa2V5IjoiSEkwMDA5OmdieGR2OFVEV20vNG4zcjJoMlNHQ2ciLCJjbGllbnRfaWQiOiJISTAwMDkiLCJjbGllbnRfdG9rZW4iOiJRVEV5T0VkRFRRLjZ0UWhjUlJheEdTMXJ6VFVMWXoyM0ZEX2dqQkpTNTl0ZzlkbGxhQkhJY0hRa1U2UUg5eG81VEZCdHE4LkRVWW5jWmF2Z2xMNXNUU2Iuam90cGVPTk83a2xiaHM4c0lOclJWVjdndHFpc21KNkFtcTVwdmRZaW00WXlJT2dPNDY4ZFJhc29mS25nZ3RkZElzUHU5VVdQM01yM0I2eTJrQ3RkN2NQMDFMRkpsaG9xajlpU21RUTQ3RGExUmU5UkJ5dnVHbGRuVE1vVTc3OE5SOWh5ekxoZm9wWGhyYWtZbWI3dy5helJjUUlrSGhrN3NHal9PVTNFMkl3IiwiZGV2aWNlIjoid2ViIiwiZGV2aWNlX2lkIjpudWxsLCJpcCI6bnVsbCwiZXhwIjoxNzEyMDM3ODE4Mjg3fQ.NAJa0k16dQsb8EEwmRHJvA1a9P6XNcsN_wY30diPuBI]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Request Body: {"loginId":"wrong_client_id","pin":"","twoFaType":"string"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Expected Status Code: 403
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Actual Status Code: 403
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Response Body: {"status":false,"message":"Request forbidden","errorcode":"40000","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:33:40 am</td>
+        <td>
+          Set TwoFa Pin API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="29"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Guest User Status</p>
+            <p class="text-sm">
+              <span>11:33:40 am</span> / <span>00:00:00:200</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Guest User Status</h5>
+<span class='badge badge-success'>04.01.2024 11:33:40 am</span>
+<span class='badge badge-danger'>04.01.2024 11:33:41 am</span>
+<span class='badge badge-default'>00:00:00:200</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Test to verify guest user status API</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:41 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/authapis/guestUserStatus
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:41 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, P-Platform: ANDROID]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:41 am</td>
+        <td>
+          Request Body: {"email": "test@example.com"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:41 am</td>
+        <td>
+          Expected Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:41 am</td>
+        <td>
+          Actual Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:33:41 am</td>
+        <td>
+          Response Body: {"status":true,"message":"SUCCESS","errorcode":"","data":{"guestStatus":0,"userId":""}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:33:41 am</td>
+        <td>
+          Guest User Status API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Apr 1, 2024 11:33:36 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Apr 1, 2024 11:33:41 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>7</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>2</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='77%'>
+<b>7</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='22%'><b>2</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='85%'><b>17</b> steps passed</small></div>
+<div>
+<small data-tooltip='15%'><b>3</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='11%'><b>18</b> events passed</small></div>
+<div>
+<small data-tooltip='2%'><b>4</b> events failed,
+<b data-tooltip='%'>136</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Login APIs":1.488,"Login by Email APIs":0.345,"Validate TwoFa APIs":0.281,"Validate Token APIs":0.575,"Forget Password APIs":0.465,"Set Password APIs":0.418,"Forget Reset TwoFa APIs":0.479,"Set TwoFa Pin APIs":0.288,"Guest User Status":0.2
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 7,
+failParent: 2,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 17,
+failChild: 3,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 18,
+failEvents: 4,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 136
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

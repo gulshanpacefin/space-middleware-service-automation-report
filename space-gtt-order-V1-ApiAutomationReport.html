@@ -1,0 +1,1475 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Apr 1, 2024 11:34:02 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="212"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Fetch GTT Order API Test</p>
+            <p class="text-sm">
+              <span>11:34:02 am</span> / <span>00:00:00:355</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Fetch GTT Order API Test</h5>
+<span class='badge badge-success'>04.01.2024 11:34:02 am</span>
+<span class='badge badge-danger'>04.01.2024 11:34:03 am</span>
+<span class='badge badge-default'>00:00:00:355</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=212</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Tests suie for Fetch GTT Order API</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:137</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="213"><span>Fetch GTT Order with valid credentials</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>In this test case it fetch all the GTT Order and response status code is 200 and message is SUCCESS</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:02 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/orderapis/fetchGTTOrder
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:02 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJibGFja2xpc3Rfa2V5IjoiSEkwMDA5OmdieGR2OFVEV20vNG4zcjJoMlNHQ2ciLCJjbGllbnRfaWQiOiJISTAwMDkiLCJjbGllbnRfdG9rZW4iOiJRVEV5T0VkRFRRLjZ0UWhjUlJheEdTMXJ6VFVMWXoyM0ZEX2dqQkpTNTl0ZzlkbGxhQkhJY0hRa1U2UUg5eG81VEZCdHE4LkRVWW5jWmF2Z2xMNXNUU2Iuam90cGVPTk83a2xiaHM4c0lOclJWVjdndHFpc21KNkFtcTVwdmRZaW00WXlJT2dPNDY4ZFJhc29mS25nZ3RkZElzUHU5VVdQM01yM0I2eTJrQ3RkN2NQMDFMRkpsaG9xajlpU21RUTQ3RGExUmU5UkJ5dnVHbGRuVE1vVTc3OE5SOWh5ekxoZm9wWGhyYWtZbWI3dy5helJjUUlrSGhrN3NHal9PVTNFMkl3IiwiZGV2aWNlIjoid2ViIiwiZGV2aWNlX2lkIjpudWxsLCJpcCI6bnVsbCwiZXhwIjoxNzEyMDM3ODE4Mjg3fQ.NAJa0k16dQsb8EEwmRHJvA1a9P6XNcsN_wY30diPuBI]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:02 am</td>
+        <td>
+          Request Body: {"clientId":"HI0009"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:02 am</td>
+        <td>
+          Expected Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:02 am</td>
+        <td>
+          Response Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:02 am</td>
+        <td>
+          Response Body: {"status":true,"message":"SUCCESS","errorcode":"","data":{"fetchGTTOrderData":[{"actionType":"single_order","clientId":"HI0009","createdAt":"2024-04-01 11:33:52","expiryTime":"2025-04-01","id":"780b11de-1bcf-4ad7-9fbd-e59553c84f2c","loginId":"HI0009","order":{"disclosedQty":0,"exchange":"NSE","executionType":"","mode":"NEW","orderSide":"BUY","orderType":"LIMIT","price":20,"proCli":"CLIENT","prodType":"CNC","quantity":1,"segment":"Capital","slOrderPrice":0,"slOrderQuantity":0,"slTriggerPrice":0,"squareOffPrice":0,"token":11915,"tradingSymbol":"YESBANK-EQ","trailingStopLoss":0,"triggerPrice":21,"validity":"DAY","vendorCode":"00"},"rejectCode":0,"rejectReason":"","status":"ACTIVE","type":"GTTStock","updatedAt":"2024-04-01 11:33:52"},{"actionType":"single_order","clientId":"HI0009","createdAt":"2024-04-01 11:28:14","expiryTime":"2025-04-01","id":"4c1a5e80-88da-47a4-b545-a25199916234","loginId":"HI0009","order":{"disclosedQty":0,"exchange":"NSE","executionType":"","mode":"NEW","orderSide":"BUY","orderType":"LIMIT","price":15,"proCli":"CLIENT","prodType":"CNC","quantity":1,"segment":"Capital","slOrderPrice":0,"slOrderQuantity":0,"slTriggerPrice":0,"squareOffPrice":0,"token":11915,"tradingSymbol":"YESBANK-EQ","trailingStopLoss":0,"triggerPrice":16,"validity":"DAY","vendorCode":"00"},"rejectCode":0,"rejectReason":"","status":"ACTIVE","type":"GTTStock","updatedAt":"2024-04-01 11:28:14"},{"actionType":"single_order","clientId":"HI0009","createdAt":"2024-04-01 11:27:40","expiryTime":"2025-04-01","id":"392b3c00-6530-46e5-9b13-6ce713830211","loginId":"HI0009","order":{"disclosedQty":0,"exchange":"NSE","executionType":"","mode":"NEW","orderSide":"BUY","orderType":"LIMIT","price":1,"proCli":"CLIENT","prodType":"CNC","quantity":1,"segment":"Capital","slOrderPrice":0,"slOrderQuantity":0,"slTriggerPrice":0,"squareOffPrice":0,"token":25756,"tradingSymbol":"VIKASECO-EQ","trailingStopLoss":0,"triggerPrice":2,"validity":"DAY","vendorCode":"00"},"rejectCode":0,"rejectReason":"","status":"ACTIVE","type":"GTTStock","updatedAt":"2024-04-01 11:27:40"},{"actionType":"single_order","clientId":"HI0009","createdAt":"2024-04-01 11:24:22","expiryTime":"2025-04-01","id":"b79b253f-7261-4108-b6d5-592dd37bec80","loginId":"HI0009","order":{"disclosedQty":0,"exchange":"NSE","executionType":"","mode":"NEW","orderSide":"BUY","orderType":"LIMIT","price":15,"proCli":"CLIENT","prodType":"CNC","quantity":5,"segment":"Capital","slOrderPrice":0,"slOrderQuantity":0,"slTriggerPrice":0,"squareOffPrice":0,"token":13342,"tradingSymbol":"VAKRANGEE-EQ","trailingStopLoss":0,"triggerPrice":16,"validity":"DAY","vendorCode":"00"},"rejectCode":0,"rejectReason":"","status":"ACTIVE","type":"GTTStock","updatedAt":"2024-04-01 11:25:35"},{"actionType":"single_order","clientId":"HI0009","createdAt":"2024-04-01 11:24:03","expiryTime":"2025-04-01","id":"fa2c5929-4789-43de-8d67-5e0fd35f5cf6","loginId":"HI0009","order":{"disclosedQty":0,"exchange":"BSE","executionType":"","mode":"NEW","orderSide":"BUY","orderType":"LIMIT","price":10,"proCli":"CLIENT","prodType":"CNC","quantity":1,"segment":"Capital","slOrderPrice":0,"slOrderQuantity":0,"slTriggerPrice":0,"squareOffPrice":0,"token":532648,"tradingSymbol":"YESBANK-A","trailingStopLoss":0,"triggerPrice":11,"validity":"DAY","vendorCode":"88"},"rejectCode":0,"rejectReason":"","status":"ACTIVE","type":"GTTStock","updatedAt":"2024-04-01 11:24:03"},{"actionType":"single_order","clientId":"HI0009","createdAt":"2024-04-01 11:23:47","expiryTime":"2025-04-01","id":"bfe66775-7b5e-4459-b063-020746484b82","loginId":"HI0009","order":{"disclosedQty":0,"exchange":"BSE","executionType":"","mode":"NEW","orderSide":"BUY","orderType":"LIMIT","price":10,"proCli":"CLIENT","prodType":"CNC","quantity":1,"segment":"Capital","slOrderPrice":0,"slOrderQuantity":0,"slTriggerPrice":0,"squareOffPrice":0,"token":532648,"tradingSymbol":"YESBANK-A","trailingStopLoss":0,"triggerPrice":11,"validity":"DAY","vendorCode":"88"},"rejectCode":0,"rejectReason":"","status":"ACTIVE","type":"GTTStock","updatedAt":"2024-04-01 11:23:47"},{"actionType":"single_order","clientId":"HI0009","createdAt":"2024-03-28 10:36:25","expiryTime":"2025-03-28","id":"2ea1f546-d6ed-401c-b743-3277b92feada","loginId":"HI0009","order":{"disclosedQty":0,"exchange":"BSE","executionType":"","mode":"NEW","orderSide":"BUY","orderType":"LIMIT","price":13.5,"proCli":"CLIENT","prodType":"CNC","quantity":1,"segment":"Capital","slOrderPrice":0,"slOrderQuantity":0,"slTriggerPrice":0,"squareOffPrice":0,"token":532822,"tradingSymbol":"IDEA-A","trailingStopLoss":0,"triggerPrice":13.5,"validity":"DAY","vendorCode":"88"},"rejectCode":0,"rejectReason":"","status":"TRIGGERED","type":"GTTStock","updatedAt":"2024-04-01 09:27:39"}]}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:34:02 am</td>
+        <td>
+          Featch GTT Order API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:110</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="214"><span>Fetch GTT Order with invalid Auth Token</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>In this test case it try to fetch all the GTT Order with invalid Auth Token and response status code is 401 and message is Request Unauthorised</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:02 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/orderapis/fetchGTTOrder
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:02 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, Authorization: Bearer invalidAuthToken]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:02 am</td>
+        <td>
+          Request Body: {"clientId":"HI0009"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:02 am</td>
+        <td>
+          Expected Status Code: 401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:02 am</td>
+        <td>
+          Response Status Code: 401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:02 am</td>
+        <td>
+          Response Body: {"status":false,"message":"Request Unauthorised","errorcode":"40000","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:34:02 am</td>
+        <td>
+          Featch GTT Order API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:108</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="215"><span>Fetch GTT Order with invalid Client Id</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>In this test case it try to fetch all the GTT Order with invalid Client Id and response status code is 403 and message is Request forbidden </p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:02 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/orderapis/fetchGTTOrder
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJibGFja2xpc3Rfa2V5IjoiSEkwMDA5OmdieGR2OFVEV20vNG4zcjJoMlNHQ2ciLCJjbGllbnRfaWQiOiJISTAwMDkiLCJjbGllbnRfdG9rZW4iOiJRVEV5T0VkRFRRLjZ0UWhjUlJheEdTMXJ6VFVMWXoyM0ZEX2dqQkpTNTl0ZzlkbGxhQkhJY0hRa1U2UUg5eG81VEZCdHE4LkRVWW5jWmF2Z2xMNXNUU2Iuam90cGVPTk83a2xiaHM4c0lOclJWVjdndHFpc21KNkFtcTVwdmRZaW00WXlJT2dPNDY4ZFJhc29mS25nZ3RkZElzUHU5VVdQM01yM0I2eTJrQ3RkN2NQMDFMRkpsaG9xajlpU21RUTQ3RGExUmU5UkJ5dnVHbGRuVE1vVTc3OE5SOWh5ekxoZm9wWGhyYWtZbWI3dy5helJjUUlrSGhrN3NHal9PVTNFMkl3IiwiZGV2aWNlIjoid2ViIiwiZGV2aWNlX2lkIjpudWxsLCJpcCI6bnVsbCwiZXhwIjoxNzEyMDM3ODE4Mjg3fQ.NAJa0k16dQsb8EEwmRHJvA1a9P6XNcsN_wY30diPuBI]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request Body: {"clientId":"invalidClientId"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Expected Status Code: 403
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Response Status Code: 403
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Response Body: {"status":false,"message":"Request forbidden","errorcode":"40000","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Featch GTT Order API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="216"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Create GTT Order API Test</p>
+            <p class="text-sm">
+              <span>11:34:03 am</span> / <span>00:00:00:512</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Create GTT Order API Test</h5>
+<span class='badge badge-success'>04.01.2024 11:34:03 am</span>
+<span class='badge badge-danger'>04.01.2024 11:34:03 am</span>
+<span class='badge badge-default'>00:00:00:512</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=216</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Tests suie for Create GTT Order API</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:179</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="217"><span>Create GTT Order with valid credentials</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>In this test case it create a GTT Order and response status code is 200 and message is SUCCESS</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/orderapis/createGTTOrder
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJibGFja2xpc3Rfa2V5IjoiSEkwMDA5OmdieGR2OFVEV20vNG4zcjJoMlNHQ2ciLCJjbGllbnRfaWQiOiJISTAwMDkiLCJjbGllbnRfdG9rZW4iOiJRVEV5T0VkRFRRLjZ0UWhjUlJheEdTMXJ6VFVMWXoyM0ZEX2dqQkpTNTl0ZzlkbGxhQkhJY0hRa1U2UUg5eG81VEZCdHE4LkRVWW5jWmF2Z2xMNXNUU2Iuam90cGVPTk83a2xiaHM4c0lOclJWVjdndHFpc21KNkFtcTVwdmRZaW00WXlJT2dPNDY4ZFJhc29mS25nZ3RkZElzUHU5VVdQM01yM0I2eTJrQ3RkN2NQMDFMRkpsaG9xajlpU21RUTQ3RGExUmU5UkJ5dnVHbGRuVE1vVTc3OE5SOWh5ekxoZm9wWGhyYWtZbWI3dy5helJjUUlrSGhrN3NHal9PVTNFMkl3IiwiZGV2aWNlIjoid2ViIiwiZGV2aWNlX2lkIjpudWxsLCJpcCI6bnVsbCwiZXhwIjoxNzEyMDM3ODE4Mjg3fQ.NAJa0k16dQsb8EEwmRHJvA1a9P6XNcsN_wY30diPuBI]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request Body: {"disclosedQuantity":0,"marketProtectionPercentage":0,"orderType":"LIMIT","product":"CNC","clientId":"HI0009","quantity":1,"triggerPrice":11,"instrumentToken":"11915","orderSide":"BUY","userOrderId":122321,"actionType":"single_order","price":10,"exchange":"NSE"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Expected Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Response Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Response Body: {"status":true,"message":"SUCCESS","errorcode":"","data":{"id":"acada587-4148-4e05-b291-c91b58820e3a"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Create GTT Order API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:097</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="218"><span>Create GTT Order with invalid Auth Token</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>In this test case it try to create a GTT Order with invalid Auth Token and response status code is 401 and message is Request Unauthorised</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/orderapis/createGTTOrder
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, Authorization: Bearer invalidAuthToken]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request Body: {"disclosedQuantity":0,"marketProtectionPercentage":0,"orderType":"LIMIT","product":"CNC","clientId":"HI0009","quantity":1,"triggerPrice":11,"instrumentToken":"11915","orderSide":"BUY","userOrderId":122321,"actionType":"single_order","price":10,"exchange":"NSE"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Expected Status Code: 401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Response Status Code: 401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Response Body: {"status":false,"message":"Request Unauthorised","errorcode":"40000","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Create GTT Order API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:112</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="219"><span>Create GTT Order with invalid Client Id</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>In this test case it try to create a GTT Order with invalid Client Id and response status code is 403 and message is Request forbidden </p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/orderapis/createGTTOrder
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJibGFja2xpc3Rfa2V5IjoiSEkwMDA5OmdieGR2OFVEV20vNG4zcjJoMlNHQ2ciLCJjbGllbnRfaWQiOiJISTAwMDkiLCJjbGllbnRfdG9rZW4iOiJRVEV5T0VkRFRRLjZ0UWhjUlJheEdTMXJ6VFVMWXoyM0ZEX2dqQkpTNTl0ZzlkbGxhQkhJY0hRa1U2UUg5eG81VEZCdHE4LkRVWW5jWmF2Z2xMNXNUU2Iuam90cGVPTk83a2xiaHM4c0lOclJWVjdndHFpc21KNkFtcTVwdmRZaW00WXlJT2dPNDY4ZFJhc29mS25nZ3RkZElzUHU5VVdQM01yM0I2eTJrQ3RkN2NQMDFMRkpsaG9xajlpU21RUTQ3RGExUmU5UkJ5dnVHbGRuVE1vVTc3OE5SOWh5ekxoZm9wWGhyYWtZbWI3dy5helJjUUlrSGhrN3NHal9PVTNFMkl3IiwiZGV2aWNlIjoid2ViIiwiZGV2aWNlX2lkIjpudWxsLCJpcCI6bnVsbCwiZXhwIjoxNzEyMDM3ODE4Mjg3fQ.NAJa0k16dQsb8EEwmRHJvA1a9P6XNcsN_wY30diPuBI]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request Body: {"disclosedQuantity":0,"marketProtectionPercentage":0,"orderType":"LIMIT","product":"CNC","clientId":"invalidClientId","quantity":1,"triggerPrice":11,"instrumentToken":"11915","orderSide":"BUY","userOrderId":122321,"actionType":"single_order","price":10,"exchange":"NSE"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Expected Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Response Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Response Body: {"status":false,"message":"Invalid login id","errorcode":"40006","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Create GTT Order API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:124</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="220"><span>Create GTT Order with wrong request body</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>In this test case it try to create a GTT Order with wrong request body and response status code is 400 and message is Bad Request </p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/orderapis/createGTTOrder
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJibGFja2xpc3Rfa2V5IjoiSEkwMDA5OmdieGR2OFVEV20vNG4zcjJoMlNHQ2ciLCJjbGllbnRfaWQiOiJISTAwMDkiLCJjbGllbnRfdG9rZW4iOiJRVEV5T0VkRFRRLjZ0UWhjUlJheEdTMXJ6VFVMWXoyM0ZEX2dqQkpTNTl0ZzlkbGxhQkhJY0hRa1U2UUg5eG81VEZCdHE4LkRVWW5jWmF2Z2xMNXNUU2Iuam90cGVPTk83a2xiaHM4c0lOclJWVjdndHFpc21KNkFtcTVwdmRZaW00WXlJT2dPNDY4ZFJhc29mS25nZ3RkZElzUHU5VVdQM01yM0I2eTJrQ3RkN2NQMDFMRkpsaG9xajlpU21RUTQ3RGExUmU5UkJ5dnVHbGRuVE1vVTc3OE5SOWh5ekxoZm9wWGhyYWtZbWI3dy5helJjUUlrSGhrN3NHal9PVTNFMkl3IiwiZGV2aWNlIjoid2ViIiwiZGV2aWNlX2lkIjpudWxsLCJpcCI6bnVsbCwiZXhwIjoxNzEyMDM3ODE4Mjg3fQ.NAJa0k16dQsb8EEwmRHJvA1a9P6XNcsN_wY30diPuBI]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request Body: {"disclosedQuantity":0,"marketProtectionPercentage":0,"orderType":"LIMIT","product":"CNC","clientId":"HI0009","quantity":1,"triggerPrice":11,"instrumentToken":"abc","orderSide":"BUY","userOrderId":122321,"actionType":"single_order","price":10,"exchange":"NSE"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Expected Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Response Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Response Body: {"status":false,"message":"`order` `instrument_token` is invalid","errorcode":"44000","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Create GTT Order API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="221"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Modify GTT Order API Test</p>
+            <p class="text-sm">
+              <span>11:34:03 am</span> / <span>00:00:00:446</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Modify GTT Order API Test</h5>
+<span class='badge badge-success'>04.01.2024 11:34:03 am</span>
+<span class='badge badge-danger'>04.01.2024 11:34:03 am</span>
+<span class='badge badge-default'>00:00:00:446</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=221</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Tests suie for Modify GTT Order API</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>30:00:116</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="222"><span>Modify GTT Order with valid credentials</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+            <p>In this test case it modify a GTT Order and response status code is 200 and message is SUCCESS</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/orderapis/modifyGTTOrder
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJibGFja2xpc3Rfa2V5IjoiSEkwMDA5OmdieGR2OFVEV20vNG4zcjJoMlNHQ2ciLCJjbGllbnRfaWQiOiJISTAwMDkiLCJjbGllbnRfdG9rZW4iOiJRVEV5T0VkRFRRLjZ0UWhjUlJheEdTMXJ6VFVMWXoyM0ZEX2dqQkpTNTl0ZzlkbGxhQkhJY0hRa1U2UUg5eG81VEZCdHE4LkRVWW5jWmF2Z2xMNXNUU2Iuam90cGVPTk83a2xiaHM4c0lOclJWVjdndHFpc21KNkFtcTVwdmRZaW00WXlJT2dPNDY4ZFJhc29mS25nZ3RkZElzUHU5VVdQM01yM0I2eTJrQ3RkN2NQMDFMRkpsaG9xajlpU21RUTQ3RGExUmU5UkJ5dnVHbGRuVE1vVTc3OE5SOWh5ekxoZm9wWGhyYWtZbWI3dy5helJjUUlrSGhrN3NHal9PVTNFMkl3IiwiZGV2aWNlIjoid2ViIiwiZGV2aWNlX2lkIjpudWxsLCJpcCI6bnVsbCwiZXhwIjoxNzEyMDM3ODE4Mjg3fQ.NAJa0k16dQsb8EEwmRHJvA1a9P6XNcsN_wY30diPuBI]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request Body: {"actionType":"string","expiryTime":"string","id":"acada587-4148-4e05-b291-c91b58820e3a","order":{"disclosedQuantity":0,"marketProtectionPercentage":0,"userOrderId":122321,"orderType":"LIMIT","product":"CNC","clientId":"HI0009","quantity":4,"triggerPrice":14,"price":13,"instrumentToken":"532822","exchange":"NSE","orderSide":"BUY"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Expected Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Response Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Response Body: {"status":false,"message":"`action_type` is invalid","errorcode":"44000","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Assertion failed: Status code mismatch expected:<200> but was:<400>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:099</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="223"><span>Modify GTT Order with invalid Auth Token</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>In this test case it try to modify a GTT Order with invalid Auth Token and response status code is 401 and message is Request Unauthorised</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/orderapis/modifyGTTOrder
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, Authorization: Bearer invalidAuthToken]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request Body: {"actionType":"single_order","expiryTime":"2025-03-15","id":"acada587-4148-4e05-b291-c91b58820e3a","order":{"disclosedQuantity":0,"marketProtectionPercentage":0,"userOrderId":0,"orderType":"LIMIT","product":"CNC","clientId":"HI0009","quantity":2,"triggerPrice":0,"price":10,"instrumentToken":"11915","exchange":"NSE","orderSide":"BUY"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Expected Status Code: 401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Response Status Code: 401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Response Body: {"status":false,"message":"Request Unauthorised","errorcode":"40000","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Modified GTT Order API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:115</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="224"><span>Modify GTT Order with invalid Client Id</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>In this test case it try to modify a GTT Order with invalid Client Id and response status code is 403 and message is Request forbidden </p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/orderapis/modifyGTTOrder
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJibGFja2xpc3Rfa2V5IjoiSEkwMDA5OmdieGR2OFVEV20vNG4zcjJoMlNHQ2ciLCJjbGllbnRfaWQiOiJISTAwMDkiLCJjbGllbnRfdG9rZW4iOiJRVEV5T0VkRFRRLjZ0UWhjUlJheEdTMXJ6VFVMWXoyM0ZEX2dqQkpTNTl0ZzlkbGxhQkhJY0hRa1U2UUg5eG81VEZCdHE4LkRVWW5jWmF2Z2xMNXNUU2Iuam90cGVPTk83a2xiaHM4c0lOclJWVjdndHFpc21KNkFtcTVwdmRZaW00WXlJT2dPNDY4ZFJhc29mS25nZ3RkZElzUHU5VVdQM01yM0I2eTJrQ3RkN2NQMDFMRkpsaG9xajlpU21RUTQ3RGExUmU5UkJ5dnVHbGRuVE1vVTc3OE5SOWh5ekxoZm9wWGhyYWtZbWI3dy5helJjUUlrSGhrN3NHal9PVTNFMkl3IiwiZGV2aWNlIjoid2ViIiwiZGV2aWNlX2lkIjpudWxsLCJpcCI6bnVsbCwiZXhwIjoxNzEyMDM3ODE4Mjg3fQ.NAJa0k16dQsb8EEwmRHJvA1a9P6XNcsN_wY30diPuBI]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request Body: {"actionType":"string","expiryTime":"string","id":"acada587-4148-4e05-b291-c91b58820e3a","order":{"disclosedQuantity":0,"marketProtectionPercentage":0,"userOrderId":0,"orderType":"LIMIT","product":"CNC","clientId":"invalidClientId","quantity":2,"triggerPrice":0,"price":10,"instrumentToken":"11915","exchange":"NSE","orderSide":"BUY"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Expected Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Response Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Response Body: {"status":false,"message":"`action_type` is invalid","errorcode":"44000","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Modified GTT Order API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:116</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="225"><span>Modify GTT Order with wrong request body</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>In this test case it try to modify a GTT Order with wrong request body and response status code is 400 and message is Bad Request </p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/orderapis/modifyGTTOrder
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJibGFja2xpc3Rfa2V5IjoiSEkwMDA5OmdieGR2OFVEV20vNG4zcjJoMlNHQ2ciLCJjbGllbnRfaWQiOiJISTAwMDkiLCJjbGllbnRfdG9rZW4iOiJRVEV5T0VkRFRRLjZ0UWhjUlJheEdTMXJ6VFVMWXoyM0ZEX2dqQkpTNTl0ZzlkbGxhQkhJY0hRa1U2UUg5eG81VEZCdHE4LkRVWW5jWmF2Z2xMNXNUU2Iuam90cGVPTk83a2xiaHM4c0lOclJWVjdndHFpc21KNkFtcTVwdmRZaW00WXlJT2dPNDY4ZFJhc29mS25nZ3RkZElzUHU5VVdQM01yM0I2eTJrQ3RkN2NQMDFMRkpsaG9xajlpU21RUTQ3RGExUmU5UkJ5dnVHbGRuVE1vVTc3OE5SOWh5ekxoZm9wWGhyYWtZbWI3dy5helJjUUlrSGhrN3NHal9PVTNFMkl3IiwiZGV2aWNlIjoid2ViIiwiZGV2aWNlX2lkIjpudWxsLCJpcCI6bnVsbCwiZXhwIjoxNzEyMDM3ODE4Mjg3fQ.NAJa0k16dQsb8EEwmRHJvA1a9P6XNcsN_wY30diPuBI]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Request Body: {"actionType":"single_order","expiryTime":"2025-03-15","id":"acada587-4148-4e05-b291-c91b58820e3a","order":{"disclosedQuantity":0,"marketProtectionPercentage":0,"userOrderId":0,"orderType":"LIMIT","product":"CNC","clientId":"HI0009","quantity":2,"triggerPrice":0,"price":10,"instrumentToken":"abc","exchange":"NSE","orderSide":"BUY"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Expected Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Response Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Response Body: {"status":false,"message":"`order` `instrument_token` is invalid","errorcode":"44000","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:34:03 am</td>
+        <td>
+          Modified GTT Order API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="226"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Cancel GTT Order API Test</p>
+            <p class="text-sm">
+              <span>11:34:03 am</span> / <span>00:00:00:463</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Cancel GTT Order API Test</h5>
+<span class='badge badge-success'>04.01.2024 11:34:03 am</span>
+<span class='badge badge-danger'>04.01.2024 11:34:04 am</span>
+<span class='badge badge-default'>00:00:00:463</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=226</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">Tests suie for Cancel GTT Order API</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:115</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="227"><span>Cancel GTT Order with valid credentials</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>In this test case it cancel a GTT Order and response status code is 200 and message is SUCCESS</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/orderapis/cancelGTTOrder
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJibGFja2xpc3Rfa2V5IjoiSEkwMDA5OmdieGR2OFVEV20vNG4zcjJoMlNHQ2ciLCJjbGllbnRfaWQiOiJISTAwMDkiLCJjbGllbnRfdG9rZW4iOiJRVEV5T0VkRFRRLjZ0UWhjUlJheEdTMXJ6VFVMWXoyM0ZEX2dqQkpTNTl0ZzlkbGxhQkhJY0hRa1U2UUg5eG81VEZCdHE4LkRVWW5jWmF2Z2xMNXNUU2Iuam90cGVPTk83a2xiaHM4c0lOclJWVjdndHFpc21KNkFtcTVwdmRZaW00WXlJT2dPNDY4ZFJhc29mS25nZ3RkZElzUHU5VVdQM01yM0I2eTJrQ3RkN2NQMDFMRkpsaG9xajlpU21RUTQ3RGExUmU5UkJ5dnVHbGRuVE1vVTc3OE5SOWh5ekxoZm9wWGhyYWtZbWI3dy5helJjUUlrSGhrN3NHal9PVTNFMkl3IiwiZGV2aWNlIjoid2ViIiwiZGV2aWNlX2lkIjpudWxsLCJpcCI6bnVsbCwiZXhwIjoxNzEyMDM3ODE4Mjg3fQ.NAJa0k16dQsb8EEwmRHJvA1a9P6XNcsN_wY30diPuBI]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Request Body: {"clientId":"HI0009","id":"acada587-4148-4e05-b291-c91b58820e3a"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Expected Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Response Status Code: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Response Body: {"status":true,"message":"SUCCESS","errorcode":"","data":{"id":"acada587-4148-4e05-b291-c91b58820e3a"}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Cancel GTT Order API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:115</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="228"><span>Cancel GTT Order with invalid Auth Token</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>In this test case it try to cancel a GTT Order with invalid Auth Token and response status code is 401 and message is Request Unauthorised</p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/orderapis/cancelGTTOrder
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, Authorization: Bearer invalidAuthToken]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Request Body: {"clientId":"HI0009","id":"acada587-4148-4e05-b291-c91b58820e3a"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Expected Status Code: 401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Response Status Code: 401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Response Body: {"status":false,"message":"Request Unauthorised","errorcode":"40000","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Cancel GTT Order API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:156</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="229"><span>Cancel GTT Order with invalid Client Id</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>In this test case it try to cancel a GTT Order with invalid Client Id and response status code is 403 and message is Request forbidden </p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/orderapis/cancelGTTOrder
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJibGFja2xpc3Rfa2V5IjoiSEkwMDA5OmdieGR2OFVEV20vNG4zcjJoMlNHQ2ciLCJjbGllbnRfaWQiOiJISTAwMDkiLCJjbGllbnRfdG9rZW4iOiJRVEV5T0VkRFRRLjZ0UWhjUlJheEdTMXJ6VFVMWXoyM0ZEX2dqQkpTNTl0ZzlkbGxhQkhJY0hRa1U2UUg5eG81VEZCdHE4LkRVWW5jWmF2Z2xMNXNUU2Iuam90cGVPTk83a2xiaHM4c0lOclJWVjdndHFpc21KNkFtcTVwdmRZaW00WXlJT2dPNDY4ZFJhc29mS25nZ3RkZElzUHU5VVdQM01yM0I2eTJrQ3RkN2NQMDFMRkpsaG9xajlpU21RUTQ3RGExUmU5UkJ5dnVHbGRuVE1vVTc3OE5SOWh5ekxoZm9wWGhyYWtZbWI3dy5helJjUUlrSGhrN3NHal9PVTNFMkl3IiwiZGV2aWNlIjoid2ViIiwiZGV2aWNlX2lkIjpudWxsLCJpcCI6bnVsbCwiZXhwIjoxNzEyMDM3ODE4Mjg3fQ.NAJa0k16dQsb8EEwmRHJvA1a9P6XNcsN_wY30diPuBI]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Request Body: {"clientId":"invalidClientId","id":"acada587-4148-4e05-b291-c91b58820e3a"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Expected Status Code: 403
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Response Status Code: 403
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Response Body: {"status":false,"message":"Request forbidden","errorcode":"40000","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Cancel GTT Order API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:076</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="230"><span>Cancel GTT Order with wrong request body</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            <p>In this test case it try to cancel a GTT Order with wrong request body and response status code is 400 and message is Bad Request </p>
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Request URL: https://dev-trade.pocketful.in/api/space/v1/orderapis/cancelGTTOrder
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Request Headers: [P-DeviceType: WEB, Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJibGFja2xpc3Rfa2V5IjoiSEkwMDA5OmdieGR2OFVEV20vNG4zcjJoMlNHQ2ciLCJjbGllbnRfaWQiOiJISTAwMDkiLCJjbGllbnRfdG9rZW4iOiJRVEV5T0VkRFRRLjZ0UWhjUlJheEdTMXJ6VFVMWXoyM0ZEX2dqQkpTNTl0ZzlkbGxhQkhJY0hRa1U2UUg5eG81VEZCdHE4LkRVWW5jWmF2Z2xMNXNUU2Iuam90cGVPTk83a2xiaHM4c0lOclJWVjdndHFpc21KNkFtcTVwdmRZaW00WXlJT2dPNDY4ZFJhc29mS25nZ3RkZElzUHU5VVdQM01yM0I2eTJrQ3RkN2NQMDFMRkpsaG9xajlpU21RUTQ3RGExUmU5UkJ5dnVHbGRuVE1vVTc3OE5SOWh5ekxoZm9wWGhyYWtZbWI3dy5helJjUUlrSGhrN3NHal9PVTNFMkl3IiwiZGV2aWNlIjoid2ViIiwiZGV2aWNlX2lkIjpudWxsLCJpcCI6bnVsbCwiZXhwIjoxNzEyMDM3ODE4Mjg3fQ.NAJa0k16dQsb8EEwmRHJvA1a9P6XNcsN_wY30diPuBI]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Request Body: {"clientId":"HI0009","id":23}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Expected Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Response Status Code: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Response Body: {"status":false,"message":"INVALID REQUEST","errorcode":"P11017","data":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:34:04 am</td>
+        <td>
+          Cancel GTT Order API request succeeded
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Apr 1, 2024 11:34:02 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Apr 1, 2024 11:34:04 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>3</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='75%'>
+<b>3</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='25%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='93%'><b>14</b> steps passed</small></div>
+<div>
+<small data-tooltip='6%'><b>1</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='13%'><b>14</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>1</b> events failed,
+<b data-tooltip='%'>90</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Fetch GTT Order API Test":0.355,"Create GTT Order API Test":0.512,"Modify GTT Order API Test":0.446,"Cancel GTT Order API Test":0.463
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 3,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 14,
+failChild: 1,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 14,
+failEvents: 1,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 90
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
